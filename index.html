@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Lucas Bonadies</title>
+	<style>		
+		@import url('https://fonts.googleapis.com/css2?family=Spectral&display=swap');
+	</style>
+</head>
+
+<body>
+	<nav class="navbar fixed-top navbar-expand-lg menu"> <!-- Menu de navegacion-->
+		<div class="container-fluid">
+			<a class="navbar-brand ms-3 fw-bold " style="font-size:xx-large; color:black;" href="#">Lucas Bonadies</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse justify-content-end me-4 fw-bold" id="navbarNav">
+				<ul class="navbar-nav ">
+					<li class="nav-item a">
+						<a class="nav-link" aria-current="page" href="#">Inicio</a>
+					</li>
+					<li class="nav-item b">
+						<a class="nav-link" aria-current="page" href="#Sobremi">Sobre mí</a>
+					</li>
+					<li class="nav-item c">
+						<a class="nav-link " aria-current="page" href="#Experiencia">Experiencia</a>
+					</li>
+					<li class="nav-item d">
+						<a class="nav-link" href="#Formacion">Formación</a>
+					</li>
+					<li class="nav-item e">
+						<a class="nav-link" href="#PersonalSkills">Habilidades Personales</a>
+					</li>
+					<li class="nav-item f">
+						<a class="nav-link" href="#Aptitudes">Habilidades Técnicas</a>
+					</li>
+					<li class="nav-item f">
+						<a class="nav-link" href="#Contacto">Contacto</a>
+					</li>
+				</ul>
+			</div>		
+		</div>
+		
+	</nav>
+    
+	<!-- portada y foto de perfil -->
+
+	<div class="portada"></div>
+	<div class="foto">
+		<img src="imagenes/Perfil_1.jpeg" class="img-fluid" alt="Logo">
+	</div>
+
+	<h2 class="diploma">Técnico Superior en Desarrollo de Software</h2>
+	<hr id="Sobremi">
+
+	<!-- Contenedor central de la pagina -->	 
+	<section>
+		<div class="container paused"> 		<!----- Seccion Sobre mi y datos ----->
+			<div class="row row-cols" style="margin-top: 2rem;">
+				<h2>Sobre Mí</h2>
+			</div>
+			<div class="row row-cols">
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-7 anim-down">						
+					<h4>Soy Lucas</h4>
+					<p> Proactivo, organizado y responsable, con excelentes relaciones interpersonales y 3 años de experiencia en desarrollo de software. 
+						Me destaco por mi capacidad para trabajar en equipo, tomar decisiones y la rápida adaptación a nuevos desafíos.</P>
+					<p>	En uno de los proyectos que realicé tuve el privilegio de ser líder; 
+						esto me permitió desarrollar una comunicación efectiva, fomentar la colaboración y tomar decisiones estratégicas bajo presión.</p>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-5 datos anim-up">
+					<div class="row row-cols">									
+						<p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone-fill" viewBox="0 0 16 16">
+							<path d="M3 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V2zm6 11a1 1 0 1 0-2 0 1 1 0 0 0 2 0z"/>
+							</svg>
+							Teléfono: 2235-950165
+						</p>							
+						<p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+							<path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
+							</svg>
+							Email: lucasbonadies@gmail.com
+						</p>						
+						<p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+							<path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+							</svg>	
+							Ubicación: Mar del Plata, Argentina
+						</p>								
+					</div>	
+				</div>					
+			</div>
+		</div>	
+
+		<hr id="Experiencia">			
+		<div class="container containerExpert paused">
+			<div class="row row-cols">
+				<div class="col-6 expert"></div> <!-- imagen -->
+				<div class="col-6 mt-6 anim-left">
+					<h2 class="text-center">Experiencia</h2>  <!-- Centrado del título -->
+					<ul class="p-3">  <!-- Padding alrededor del contenido -->
+						<li>
+							<h4>Desarrollador freelance</h4>
+							<p>2023 - Actualidad</p>
+							<p>° Desarrollo de aplicación web para la gestión de pedidos y clientes de un café, integrando funcionalidades adaptadas a las necesidades del negocio.</p>
+							<p>° Creación de un sistema de pedidos personalizado para un restaurante, desde la conceptualización hasta la implementación.</p>
+							<p>° Diseño y desarrollo de landing pages para profesionales independientes, como abogados, asegurando un diseño atractivo y funcional que refuerce su presencia en línea.</p>
+						</li>
+						<li>
+							<h4>Distribuidora mayorista Tecnoprices</h4>
+							<p>2021 - Actualidad</p>
+							<p>Vendedor de artículos de computación, electrónica de consumo y repuestos.</p>
+						</li>
+						<li>
+							<h4>Técnico en reparación de telefonía celular</h4>
+							<p>2015 - 2021</p>
+							<p>Reparación de celulares y tablets (Hardware y Software)</p>
+						</li>                                 
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<hr id="Formacion">
+		<div class="container mt-4">				<!----- Seccion Formacion y Estudios ----->
+			<div class="row row-cols paused">
+				<div class="col-6 anim-right">
+					<h2>Formación</h2>
+					<ul>
+						<li>	
+							<h4>Instituto Superior Santo Domingo</h4>
+							<p>2024</p>
+							<p>Titulo de Desarrollo de Software (En curso)</p>
+						</li>
+						<li>					
+							<h4>Instituto William Blake</h4>
+							<p>Nivel de inglés B1</p>
+						</li>
+						<li>
+							<h4>Instituto IAE</h4>
+							<p>Curso en reparación en telefonía celular, especialización en Hardware y Software</p>
+						</li>		
+					</ul>
+				</div>
+				<div class="col-6 estudios">
+				</div>						
+			</div>
+		</div>										
+
+		<hr id="PersonalSkills">
+		<div class="container paused"> 		<!----- Seccion Habilidades Personales ----->
+			<div class="row row-cols">
+				<div class="col-6 hpersonales">
+				</div>
+				<div class="col-6">
+					<h2 class="anim-left">Habilidades Personales</h2>
+					<ul>
+						<li class="anim-fade-in anim-pause-2">
+							<p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bar-chart-line" viewBox="0 0 16 16">
+								<path d="M11 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3h1V7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7h1V2zm1 12h2V2h-2v12zm-3 0V7H7v7h2zm-5 0v-3H2v3h2z"/>
+							</svg>
+							Capacidad analítica y toma de decisiones</p>
+						</li>
+						<li class="anim-fade-in anim-pause-3">
+							<p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-palette" viewBox="0 0 16 16">
+								<path d="M8 5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm4 3a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM5.5 7a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm.5 6a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+								<path d="M16 8c0 3.15-1.866 2.585-3.567 2.07C11.42 9.763 10.465 9.473 10 10c-.603.683-.475 1.819-.351 2.92C9.826 14.495 9.996 16 8 16a8 8 0 1 1 8-8zm-8 7c.611 0 .654-.171.655-.176.078-.146.124-.464.07-1.119-.014-.168-.037-.37-.061-.591-.052-.464-.112-1.005-.118-1.462-.01-.707.083-1.61.704-2.314.369-.417.845-.578 1.272-.618.404-.038.812.026 1.16.104.343.077.702.186 1.025.284l.028.008c.346.105.658.199.953.266.653.148.904.083.991.024C14.717 9.38 15 9.161 15 8a7 7 0 1 0-7 7z"/>
+							</svg>								
+							Detallista/Creativo</p>
+						</li>
+						<li class="anim-fade-in anim-pause-4">
+							<p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-megaphone" viewBox="0 0 16 16">
+							<path d="M13 2.5a1.5 1.5 0 0 1 3 0v11a1.5 1.5 0 0 1-3 0v-.214c-2.162-1.241-4.49-1.843-6.912-2.083l.405 2.712A1 1 0 0 1 5.51 15.1h-.548a1 1 0 0 1-.916-.599l-1.85-3.49a68.14 68.14 0 0 0-.202-.003A2.014 2.014 0 0 1 0 9V7a2.02 2.02 0 0 1 1.992-2.013 74.663 74.663 0 0 0 2.483-.075c3.043-.154 6.148-.849 8.525-2.199V2.5zm1 0v11a.5.5 0 0 0 1 0v-11a.5.5 0 0 0-1 0zm-1 1.35c-2.344 1.205-5.209 1.842-8 2.033v4.233c.18.01.359.022.537.036 2.568.189 5.093.744 7.463 1.993V3.85zm-9 6.215v-4.13a95.09 95.09 0 0 1-1.992.052A1.02 1.02 0 0 0 1 7v2c0 .55.448 1.002 1.006 1.009A60.49 60.49 0 0 1 4 10.065zm-.657.975 1.609 3.037.01.024h.548l-.002-.014-.443-2.966a68.019 68.019 0 0 0-1.722-.082z"/>
+							</svg>
+							Comunicativo</p>
+						</li>
+						<li class="anim-fade-in anim-pause-5">
+							<p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-people" viewBox="0 0 16 16">
+							<path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8Zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022ZM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816ZM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0Zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4Z"/>
+							</svg>
+							Capacidad para trabajar en equipo</p>
+						</li>
+						<li class="anim-fade-in anim-pause-6">
+							<p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-book" viewBox="0 0 16 16">
+								<path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
+							</svg>
+							Aprendizaje ágil</p>
+						</li>	
+						<li class="anim-fade-in anim-pause-7">
+							<p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-repeat" viewBox="0 0 16 16">
+								<path d="M11.534 7h3.932a.25.25 0 0 1 .192.41l-1.966 2.36a.25.25 0 0 1-.384 0l-1.966-2.36a.25.25 0 0 1 .192-.41zm-11 2h3.932a.25.25 0 0 0 .192-.41L2.692 6.23a.25.25 0 0 0-.384 0L.342 8.59A.25.25 0 0 0 .534 9z"/>
+								<path fill-rule="evenodd" d="M8 3c-1.552 0-2.94.707-3.857 1.818a.5.5 0 1 1-.771-.636A6.002 6.002 0 0 1 13.917 7H12.9A5.002 5.002 0 0 0 8 3zM3.1 9a5.002 5.002 0 0 0 8.757 2.182.5.5 0 1 1 .771.636A6.002 6.002 0 0 1 2.083 9H3.1z"/>
+							</svg>
+							Proactivo</p>
+						</li>							
+					</ul>
+				</div>	
+			</div>
+		</div>	
+
+		<hr id="Aptitudes">		
+		<div class="container contenedorlogos paused">		<!----- Seccion Habilidades Tecnicas ----->
+			<div class="row justify-content-center mb-1 ">
+				<h2>Habilidades Técnicas</h2>
+			</div>
+			<div class="row justify-content-around anim-fade-in anim-pause-1">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 Java logos">
+					<img src="imagenes/Java_programming_language_logo.png" class="img-fluid" alt="Logo">
+				</div>
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 Csharp logos">
+					<img src=imagenes/Csharp.png class="img-fluid" alt="Logo">
+				</div>
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 Net logos">
+					<img src=imagenes/.Net.png class="img-fluid" alt="Logo">
+				</div>
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 SqlServer logos">
+					<img src=imagenes/SqlServer.png class="img-fluid" alt="Logo">
+				</div>						
+			</div>
+			<div class="row justify-content-around anim-fade-in anim-pause-2">
+				<div class="col-3 VisualStudioCode logos">
+					<img src="imagenes/VisualS.png" class="img-fluid" alt="Logo">
+				</div>
+				<div class="col-3 VisualStudio logos">
+					<img src="imagenes/VisualStudio.png"  class="img-fluid" alt="Logo">
+				</div>
+				<div class="col-3 Eclipse logos">
+					<img src="imagenes/eclipse.png" class="img-fluid" alt="Logo">
+				</div>						
+				<div class="col-3 Android logos">
+					<img src="imagenes/andoid.png" class="img-fluid" alt="Logo">
+				</div>
+			</div>
+			<div class="row justify-content-around anim-fade-in anim-pause-5">
+				<div class="col-3 htmls logos ">
+					<img src="imagenes/html.png" class="img-fluid" alt="Logo">
+				</div>
+				<div class="col-3 css3 logos ">
+					<img src="imagenes/css3.png" class="img-fluid" alt="Logo">
+				</div>
+				<div class="col-3 JS logos ">
+					<img src="imagenes/logoJS.png" class="img-fluid" alt="Logo">
+				</div>
+				<div class="col-3 github logos ">
+					<img src="imagenes/github.png" class="img-fluid" alt="Logo">
+				</div>
+			</div>
+			<div class="row justify-content-around">
+				<div class="col-3 scrum logos animacion-down2">
+					<img src="imagenes/Scrum2.png" class="img-fluid" alt="Logo">
+				</div>
+				<div class="col-3 phpmyadmin logos animacion-down2">
+					<img src="imagenes/phpmyadmin.png" class="img-fluid" alt="Logo">
+				</div>
+				<div class="col-3 python logos animacion-down2">
+					<img src="imagenes/python.png" class="img-fluid" alt="Logo">
+				</div>
+				<div class="col-3 MySQL logos animacion-down2">
+					<img src="imagenes/Mysql.png" class="img-fluid" alt="Logo">
+				</div>
+			</div>
+		</div>			
+
+		<hr id="Contacto">
+		<div class="container contacto">
+			<div class="row row-cols justify-content-center">
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+					<h1>Contacto</h1>
+					<a href="mailto:lucasbonadies@gmail.com?subject=Consulta%20Laboral&body=Hola,%20mi%20nombre%20es%20[Tu%20Nombre],%0D%0A%0D%0ADeseo%20contactarte%20para%20hablar%20sobre%20[tema].%0D%0A%0D%0A¡Gracias!">
+						lucasbonadies@gmail.com
+					</a>
+					<br></br>
+					<p>*Por favor, utilizar este contacto únicamente por cuestiones Laborales</p>
+				<!--
+					<form action="www.lucasbonadies@gmail" method="post" >
+						<div class="col">
+							<label name="nombrelabel" for="nombre" class="form-label"></label>
+							<input name="nombre" type="text" class="form-control" placeholder="Ingrese su nombre" aria-label="First name" required>
+						</div>
+						<div class="form-group">
+							<label name="textolabel" for="texto"></label>
+							<textarea name="texto" class="form-control" id="texto" placeholder="Deje su mensaje" rows="10" required></textarea>
+						</div>
+						<button type="submit" class="btn btn-outline mt-4 enviar">Enviar</button>
+					</form>	
+				-->
+					<form id="contactForm">
+						<div class="col">
+							<label for="nombre" class="form-label"></label>
+							<input name="nombre" type="text" id="nombre" class="form-control" placeholder="Ingrese su nombre" required>
+						</div>
+						<div class="form-group">
+							<label for="texto"></label>
+							<textarea name="texto" class="form-control" id="texto" placeholder="Deje su mensaje" rows="10" required></textarea>
+						</div>
+						<button type="button" class="btn btn-outline mt-4 enviar" onclick="enviarCorreo()">Enviar</button>
+					</form>			
+				</div>
+			</div>
+		</div>
+	</section>
+					
+	<footer> 
+		<div class="row row-cols redsocial"> 
+			<div class="col-3 pt-1">
+				<a>También puedes contactarme por mis redes sociales:</a>
+			</div>
+			<div class="col-1">
+				<a aria-label="Chat WhatsApp" href="https://wa.me/+542235950165/?text=Mi%20Nombre%20es%20Lucas%20Bonadies.%20En%20que%20puedo%20ayudarte?">  
+					<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-whatsapp" width="40" height="40" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+						<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+						<path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9"></path>
+						<path d="M9 10a.5 .5 0 0 0 1 0v-1a.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a.5 .5 0 0 0 0 -1h-1a.5 .5 0 0 0 0 1"></path>
+					</svg>
+				</a>
+			</div>
+			<div class="col-1">
+				<a href="#">
+					<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="40" height="40" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+						<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+						<path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z"></path>
+						<path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
+						<path d="M16.5 7.5l0 .01"></path>
+					</svg>
+				</a>
+			</div>
+			<div class="col-1">                                
+				<a href="https://www.linkedin.com/in/lucasbonadies/">
+					<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="40" height="40" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+						<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+						<path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"></path>
+						<path d="M8 11l0 5"></path>
+						<path d="M8 8l0 .01"></path>
+						<path d="M12 16l0 -5"></path>
+						<path d="M16 16v-3a2 2 0 0 0 -4 0"></path>
+					</svg>
+				</a>
+			</div> 
+			<div class="col-1">                                
+				<a href="https://github.com/lucasbonadies">
+					<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+						<path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+					</svg>
+				</a>
+			</div>   
+			<div class="col-5 d-flex justify-content-end position-relative">  
+				<button class="btn btn-outline DescargaCV position-absolute bottom-1">
+					<a href="Lucas%20Bonadies%20CV.pdf" style="color:rgb(255, 254, 254); text-decoration:none; font-size:small;">
+						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" color="white" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+							<path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+							<path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+						</svg>Descargar CV
+					</a>
+				</button>
+			</div>          
+		</div>  
+	</footer>
+	
+		
+<script src="JavaScript.js"></script>  
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>  
+</body>
+</html>

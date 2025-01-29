@@ -1,0 +1,285 @@
+
+body{
+	margin: 0 auto;
+    	
+	overflow-x: hidden; /* para que nada sobresalga en horizontal */
+	font-family: 'Spectral', serif;
+	/*overflow-x:hidden;
+	overflow-y:hidden;
+	scroll=no;*/
+}
+
+.navbar{
+	background-color: #fafbfdd0;
+}
+
+.menu .nav-item::before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to right, #c0c0c0, #000000, #c0c0c0);
+  z-index: 1;
+  transform: scaleX(0);
+  transform-origin: centerZ;
+  transition: transform 1s ease-in-out;
+}
+
+.menu .nav-item:hover:before {
+   transform: scaleX(1);
+}
+.menu a{
+	color:rgb(113, 113, 113);
+}
+.menu a:hover{
+	color:black;
+}
+
+.portada{
+	background-image:url(imagenes/portada3.jpg);
+	background-repeat:no-repeat;
+	background-position: center center ;
+    background-size: cover;
+	height:350px;
+	max-width: 90%; /* Limita el ancho al 80% de la pantalla */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+	z-index:1;
+	box-shadow: 0px 0px 20px black;
+}
+.foto{
+	margin: 0 auto;
+    width: 50%;
+    max-width: 300px;
+    height: 310px; /* Asegúrate de que la altura sea fija */
+    border-radius: 50%; /* Hace que el contenedor sea circular */
+    z-index: 3;
+    margin-top: -110px;
+    overflow: hidden; /* Oculta cualquier contenido que se salga del borde circular */
+    border: 5px solid white;
+    display: flex; /* Alineación para centrar la imagen */
+    justify-content: center;
+    align-items: center;
+}
+.foto img {
+    width: 100%; /* La imagen ocupará el ancho completo del contenedor */
+    height: 100%; /* La imagen ocupará la altura completa */
+    object-fit: cover; /* Asegura que la imagen se recorte proporcionalmente para llenar el contenedor */
+    border-radius: 50%; /* También hace que la imagen sea circular */
+}
+.diploma{
+	margin-top: 4rem; 
+	margin-bottom: 2rem;
+}
+hr{
+	box-shadow: 2px 2px 10px black;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+li{
+	list-style: none;
+}
+a{
+	color:black;
+}
+.section{
+	max-width: 1080px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra el contenido verticalmente */
+    min-height: 100vh;
+}	
+.datos{	
+	font-weight:500;
+	padding-left:30px;
+	padding-top:30px;
+
+}
+.containerExpert{
+	margin-top: 5rem; 
+	margin-bottom: 5rem;
+}
+.expert{
+	background-image: url(imagenes/pc1.jpg);
+	background-position: center;
+	background-size: contain; 
+	background-repeat: no-repeat;	
+}
+.estudios{
+	background-image: url(imagenes/estudio1.jpg);
+	background-position: center;
+	background-size: contain; 
+	background-repeat: no-repeat;	
+}
+.hpersonales{
+	background-image: url(imagenes/skills1.jpg);
+	background-position: center;
+	background-size: contain; 
+	background-repeat: no-repeat;
+}
+h1{
+	font-weight:700;
+}
+h2{
+	text-align:center;
+	font-weight:700;
+}
+p{
+	font-size:large;
+	color:#434343;
+}
+h4{
+	text-align:justify;
+}
+
+.logos{
+	width: 50%; 
+	max-width:100px;
+	max-height: 100px;
+	margin-top:32px;
+	/*width:100px;
+	height:100px;*/
+	background-position:center center;
+	background-size: contain; 
+	background-repeat: no-repeat;
+}
+.contacto{
+	margin-top: 4rem; 
+	margin-bottom: 1rem;
+}
+textarea {
+    resize: none;
+}
+.enviar{
+	color:black;
+	border:solid 1px grey;
+	box-shadow:0px 0px 5px black;
+}
+.enviar:hover{
+	transition: 0.4s;
+	color:white;
+	background-color: black;
+}
+.form-control{
+	box-shadow:0px 0px 5px black;
+}
+.form-control:focus {
+  box-shadow: none !important;
+  border: solid 1px black; 
+}
+
+footer{
+	height: auto;
+	/*background-color: #fafbfd;*/
+	background-color: #000000;
+}
+.redsocial{	
+	color:white;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	padding-left: 1rem;
+	box-shadow: 0px -15px 20px rgba(48, 48, 48, 0.671);
+	border-radius: 30%;
+}
+.redsocial a{
+	/*color:rgba(0, 0, 0, 0.404);	*/
+	color:white
+}
+
+.icon-tabler-brand-whatsapp:hover{
+	color:white;
+	border-radius: 20%;
+	background: #3fdc5b;
+}
+.icon-tabler-brand-instagram:hover{	
+	color:white;
+	border-radius: 20%;
+	background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+}
+.icon-tabler-brand-linkedin:hover{
+	color:white;
+	border-radius: 20%;
+	background: #0961b8;
+}
+.bi-github:hover{
+	color:rgb(0, 0, 0);
+	border-radius: 20%;
+	background: #fffefe;
+	border: 1px solid rgb(255, 255, 255);
+	
+}
+.DescargaCV{
+	width:140px;
+	border:solid 2px rgb(255, 255, 255);
+	margin-right: 1rem;
+}
+.DescargaCV:hover{
+	border:solid 2px rgb(252, 252, 252);
+	background-color:rgb(157, 85, 160);
+	color:rgb(255, 255, 255);
+}
+
+/******************************* codigo css para el movimiento *****************************************/
+
+@keyframes anim-fade-in { from { opacity: 0; } to { opacity: 1 } }
+
+@keyframes anim-up { 
+	from { opacity: 0; transform: translateY(100px); } 
+	to { opacity: 1; transform: translateY(0px); }  
+}		
+@keyframes anim-down { 
+	from { opacity: 0; transform: translateY(-100px); } 
+	to { opacity: 1; transform: translateY(0px); }  
+}		
+@keyframes anim-left { 
+	from { opacity: 0; transform: translateX(100px); } 
+	to { opacity: 1; transform: translateX(0px); }  
+}		
+@keyframes anim-right { 
+	from { opacity: 0; transform: translateX(-100px); } 
+	to { opacity: 1; transform: translateX(0px); }  
+}		
+
+.anim-up, .anim-down, .anim-left, .anim-right, .anim-fade-in {
+	animation-duration: 1.5s; /* la animacion dura X segundos */  
+	animation-delay: 0.5s; /* esperamos X segundos antes de hacer la animacion */		
+	animation-fill-mode: both; /* aplica estilos de la animacion antes y despues de reproducirla */
+}
+
+.anim-up { animation-name: anim-up; }
+.anim-down { animation-name: anim-down; }
+.anim-left { animation-name: anim-left; }
+.anim-right { animation-name: anim-right; }
+.anim-fade-in { animation-name: anim-fade-in; }
+
+.anim-pause-1 {animation-delay:  0.8s; }
+.anim-pause-2 { animation-delay: 1.5s; } /* la animacion empieza en X cantidad de seg. */	
+.anim-pause-3 { animation-delay: 1.8s; } 
+.anim-pause-4 { animation-delay: 2.1s; }
+.anim-pause-5 { animation-delay: 2.4s; } 
+.anim-pause-6 { animation-delay: 2.7s; } 
+.anim-pause-7 { animation-delay: 3.0s; } 
+
+/* todas las animaciones pausadas */
+.paused * { 
+	animation-play-state: paused;
+}
+
+/******** Otros desplazamientos sobre los logos ********/
+
+@keyframes animacion-down2 { 
+	from { opacity: 1; transform: translateY(-500px); } 
+	to { opacity: 1; transform: translateY(0px); }  
+}
+
+.animacion-down2{ 
+	animation-name: animacion-down2;
+	animation-duration: 4s;
+	animation-delay: 0.5s;
+	/*animation-fill-mode: */
+}
+
+
