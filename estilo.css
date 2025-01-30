@@ -1,12 +1,8 @@
 
 body{
-	margin: 0 auto;
-    	
+	margin: 0 auto; 	
 	overflow-x: hidden; /* para que nada sobresalga en horizontal */
 	font-family: 'Spectral', serif;
-	/*overflow-x:hidden;
-	overflow-y:hidden;
-	scroll=no;*/
 }
 
 .navbar{
@@ -69,7 +65,7 @@ body{
     border-radius: 50%; /* También hace que la imagen sea circular */
 }
 .diploma{
-	margin-top: 4rem; 
+	margin-top: 3rem; 
 	margin-bottom: 2rem;
 }
 hr{
@@ -128,20 +124,24 @@ h2{
 	font-weight:700;
 }
 p{
-	font-size:large;
+	/*font-size:large;*/
+	font-size: 1rem;
+	/*font-size: 1vw;  Tamaño ajustado según el ancho del viewport */
 	color:#434343;
 }
 h4{
-	text-align:justify;
+	/*text-align:justify;*/
 }
-
+.contenedorlogos{
+	margin-top: 4rem; 
+	margin-bottom: 3rem;
+}
 .logos{
 	width: 50%; 
 	max-width:100px;
 	max-height: 100px;
-	margin-top:32px;
-	/*width:100px;
-	height:100px;*/
+	margin-top:1.5rem;
+	margin-bottom: 1.5rem;
 	background-position:center center;
 	background-size: contain; 
 	background-repeat: no-repeat;
@@ -212,7 +212,7 @@ footer{
 	
 }
 .DescargaCV{
-	width:140px;
+	/*max-height: 2rem;*/
 	border:solid 2px rgb(255, 255, 255);
 	margin-right: 1rem;
 }
@@ -281,5 +281,3 @@ footer{
 	animation-delay: 0.5s;
 	/*animation-fill-mode: */
 }
-
-
