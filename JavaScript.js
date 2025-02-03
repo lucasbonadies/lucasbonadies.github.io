@@ -38,3 +38,19 @@ function enviarCorreo() {
     // Redirigir a mailto
     window.location.href = `mailto:${destinatario}?subject=${asunto}&body=${body}`;
 }
+/************************************************* Cerrar navbar cuando se hace clic *********************************/////////////
+document.addEventListener("DOMContentLoaded", function () {
+    var navLinks = document.querySelectorAll(".nav-link");
+    var navbarCollapse = document.querySelector(".navbar-collapse");
+
+    navLinks.forEach(function (link) {
+        link.addEventListener("click", function () {
+            if (window.innerWidth < 992) { // Solo en pantallas pequeñas
+                var bsCollapse = new bootstrap.Collapse(navbarCollapse, {
+                    toggle: false
+                });
+                bsCollapse.hide();
+            }
+        });
+    });
+});
