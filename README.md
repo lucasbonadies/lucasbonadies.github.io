@@ -1,1 +1,1 @@
-https://belayout.com/about/
+https://belayout.com/sobre-mi
